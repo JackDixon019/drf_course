@@ -1,6 +1,6 @@
 from json import JSONDecodeError
 from django.http import JsonResponse
-from .serializers import ItemSerializer, OrderSerializer
+from .serialisers import ItemSerializer, OrderSerializer
 from .models import Item , Order
 from rest_framework.parsers import JSONParser
 from rest_framework.permissions import IsAuthenticated
